@@ -389,7 +389,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected Void doInBackground(Void... params) {
-            bigdata.clear();
+            //bigdata.clear();
             channelUrlDatabase();
             return null;
         }
